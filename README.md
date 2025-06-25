@@ -59,14 +59,14 @@ To execute the script, use the following command.
 
 
 
-    To grant execute permission for the owner, use the following:
+    Use the following command to update the permission:
     
     ```
     chmod u + x my_first_shell_script.sh
     
-   ```
+    ```
 
-and run run the foolowing for confirmation
+run the following for confirmation
 
   ```
   ls -latr
@@ -78,17 +78,10 @@ and run run the foolowing for confirmation
   
     
 
-    Run the shell script
+ Use ls to test that the folders are created
 
-    Evaluate and ensure that 3 folders are created
+ Use id command to test that the users are created. 
 
-    Evaluate and ensure that 3 users are created on the Linux server
+ ![image](https://github.com/user-attachments/assets/f490bb4c-465a-49fb-9bfd-153380e9bcfc)
 
-Hint:
-
-    Use the chmod command to update the permission
-
-    Use ls to test that the folders are created
-
-    Use id command to test that the users are created. You should see something like this:
 
