@@ -34,3 +34,40 @@ Use ls -latr command to confirm that the file is indeed created.
 
 ![image](https://github.com/user-attachments/assets/576bc33a-de35-4541-9598-0f360df2462f)
 
+
+Notice the permissions of the newly created file is this -rw-rw--r-- which means;
+
+    The owner of the file has read (r) and write (w) permissions.
+
+    Members of the file’s group have read (r) and (w) permissions.
+
+    Others also have read (r) permission.
+
+However, no one has the execute (x) permission, hence the script cannot be executed.
+
+To execute the script, use the following command.
+
+```
+./my_first_shell_script.sh
+
+```
+![image](https://github.com/user-attachments/assets/70a16f5a-43e7-41bd-9839-c543c934c09e)
+
+
+
+    Add the execute permission for the owner to be able to execute the shell script
+
+    Run the shell script
+
+    Evaluate and ensure that 3 folders are created
+
+    Evaluate and ensure that 3 users are created on the Linux server
+
+Hint:
+
+    Use the chmod command to update the permission
+
+    Use ls to test that the folders are created
+
+    Use id command to test that the users are created. You should see something like this:
+
