@@ -51,7 +51,11 @@ To execute the script, use the following command.
 ./my_first_shell_script.sh
 
 ```
+
+
 ![image](https://github.com/user-attachments/assets/70a16f5a-43e7-41bd-9839-c543c934c09e)
+
+
 
 
 
