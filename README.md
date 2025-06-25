@@ -55,7 +55,19 @@ To execute the script, use the following command.
 
 
 
-    Add the execute permission for the owner to be able to execute the shell script
+    To grant execute permission for the owner, use the following:
+    ```
+    chmod u + x my_first_shell_script.sh
+   ```
+and run run the foolowing for confirmation
+
+  ```
+  ls -latr
+  ```
+![image](https://github.com/user-attachments/assets/d35a948c-59d6-476a-88ff-648353bd0f49)
+
+  
+    
 
     Run the shell script
 
