@@ -32,4 +32,5 @@ Use cd command to change into the shell-scripting directory.
 
 Use ls -latr command to confirm that the file is indeed created.
 
-![shell06](https://github.com/user-attachments/assets/ed506e96-1387-4413-9f82-c3e51cc7506f)
+![image](https://github.com/user-attachments/assets/576bc33a-de35-4541-9598-0f360df2462f)
+
