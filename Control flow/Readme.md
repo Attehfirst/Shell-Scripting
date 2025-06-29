@@ -138,3 +138,58 @@ Notice the `-lt` "less than" operator in t
 
 
 ![image](https://github.com/user-attachments/assets/db107228-742f-4fc0-a107-9b1d1cd88424)
+
+## FOR LOOP
+The for loop is used to iterate over a list of values or a range of numbers. It is particularly useful when you know in advance how many times you need to execute the loop body.
+
+The for loop has two main forms:
+
+List form: Iterates over a list of items
+
+Here is a basic syntax:
+
+```
+for item in list1 list2 list3; do
+  echo $item
+done
+```
+  
+-  **for**: This keyword initiates the loop, signaling the start of a block of code that will repeat.
+
+- **item**: This is a variable that temporarily holds the value of each item in the list as the loop iterates. For each iteration of the loop, **item** takes on the value of the next item in the list, allowing the commands inside the loop to act on this value.
+
+- **in**: This keyword is followed by a list of items that the loop will iterate over. This list can be a series of values, an array, or the output of a command. The loop executes once for each item in this list.
+
+- A semicolon is used to separate the list of items from the **do** keyword that follows. If you place the **do** keyword on the next line, the semicolon is optional.
+
+- **do**: This keyword precedes the block of commands that will be executed for each item in the list. The block can contain one or multiple commands, and it can perform a wide range of actions, from simple echoes to complex conditional logic.
+
+- **done**: This keyword marks the end of the loop. It signifies that all commands in the loop have been executed for each item in the list, and the loop is complete.
+
+Let’s examine a real example:
+
+```
+  #!/bin/bash
+
+for i in 1 2 3 4 5
+do
+  echo "Hello, World! This is message $i"
+done
+```
+
+In this example:
+
+The loop starts with **for i in 1 2 3 4 5**, meaning the variable **i** will take each value in the list (1, 2, 3, 4, 5) in turn.
+
+For each value of **i**, the loop executes the commands between **do** and **done**.
+
+The command echo **"Hello, World! This is message $i"** prints a greeting along with the current value of **i**. Once **i** has taken each value in the list, the loop ends.
+
+The same code can also be re-written using a range syntax:
+
+```
+for i in {1..5}
+do
+  echo "Counting... $i"
+done
+```
