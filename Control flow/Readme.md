@@ -179,11 +179,11 @@ done
 
 In this example:
 
-The loop starts with **for i in 1 2 3 4 5**, meaning the variable **i** will take each value in the list (1, 2, 3, 4, 5) in turn.
+The loop starts with `for i in 1 2 3 4 5`, meaning the variable **i** will take each value in the list (1, 2, 3, 4, 5) in turn.
 
-For each value of **i**, the loop executes the commands between **do** and **done**.
+For each value of `i`, the loop executes the commands between `do` and `done`.
 
-The command echo **"Hello, World! This is message $i"** prints a greeting along with the current value of **i**. Once **i** has taken each value in the list, the loop ends.
+The command echo `"Hello, World! This is message $i"` prints a greeting along with the current value of `i`. Once `i` has taken each value in the list, the loop ends.
 
 The same code can also be re-written using a range syntax:
 
@@ -193,3 +193,25 @@ do
   echo "Counting... $i"
 done
 ```
+
+**Task** 
+- Create a shell script for each type of the for loop
+
+- Insert the code in the file
+
+- Set the correct permission for the scripts
+
+- Execute the script and evaluate your experience.
+
+
+**For loop**
+  ![image](https://github.com/user-attachments/assets/fe764ac7-9ab5-470b-9fb4-089139b74b8c)
+
+  from the above
+  Loops from 1 through 5.
+
+Prints a message for each number:
+"Hello, World! This is message 1" ... up to "message 5".
+
+**C-Style**
+![image](https://github.com/user-attachments/assets/df2ce39c-afb0-4b67-9d90-38525df015f6)
